@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: 'Bai Jamjuree', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .break {
+        flex-basis: 100%;
+        height: 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background-color: beige;
+        z-index: 999;
+        border-bottom: 3px solid black;
+    }
+
+    .navbar a {
+        font-size: 19px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+
+    .navbar a:hover {
+        color: red;
+    }
+
+    .hero-container {
+        display: flex;
+        background-image: url('https://cdn.discordapp.com/attachments/846028166912278548/1168083652278763590/cropped-1920-1080-85285.jpg?ex=655079ac&is=653e04ac&hm=0ed0a8e33af25f937247d930319442715c05f42815889797521827d2de30492d&');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: aqua;
+        background-position: left;
+        position: relative;
+        min-width: 100vh;
+        min-height: 50vh;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .text-hero h1 {
+        font-size: xx-large;
+        font-weight: 700;
+    }
+
+    .text-hero {
+        font-size: larger;
+        color: aliceblue;
+        margin-right: 20px;
+        max-width: 60vh;
+    }
+
+    .about-us {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        margin-bottom: 40px;
+    }
+
+    .about-dice {
+        display: flex;
+        margin-top: 100px;
+
+        max-width: 100vh;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-dice p {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 50px;
+        min-width: 70px;
+
+    }
+
+
+    .about-dice h1 {
+        font-size: 28px;
+        font-weight: 900;
+        min-width: 20vh;
+        padding-bottom: 20px;
+        border-bottom: 10px solid black;
+    }
+
+    .about-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-icon ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-icon ul li {
+        list-style-type: none;
+        padding: 50px;
+        margin: 50px;
+
+    }
+
+    footer {
+        display: flex;
+        text-align: center;
+        padding: 5px;
+        background-color: beige;
+        color: #000;
+        column-gap: 30px;
+
+        flex-wrap: wrap;
+    }
+
+    footer small {
+
+        background-color: aqua;
+    }
+
+    .about {
+        max-width: 50vh;
+    }
+
+    .contact {
+        max-width: 50vh;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <a href="" class="logo"><img
+                src="https://cdn.discordapp.com/attachments/846028166912278548/1167722604774293544/2HrVwa-LogoMakr.png?ex=654f296c&is=653cb46c&hm=1199f5433e0ef1d1f304b2b75f61e45cba00677a3038744ef222b5c39e2ba20b&"></a>
+
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">Service</a>
+            <a href="">Product</a>
+            <a href="">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="heroes">
+        <div class="hero-container">
+
+            <div class="text-hero">
+                <h1>Dice your way to epic story, battle and diplomatic </h1>
+                <p>with our unique mystical and beautiful looking dice with a lot of variant D20 D10 D8 D4 and many more
+                    also with customisable
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="about-dice">
+            <h1> Dice
+                Co., Ltd. </h1>
+            <p> Dice Company is a manufacturer of the numerous dice steel, wood, rubber involving in import and domestic
+                market
+                With more than 20 years of experience, We strive for greatest and never stop improving ourselves </p>
+        </div>
+
+    </section>
+
+    <section class="quality">
+        <div class="about-icon">
+
+            <ul>
+
+                <li>
+                    <img
+                        src="https://cdn.discordapp.com/attachments/846028166912278548/1168110108216152064/p01.jpg?ex=65509250&is=653e1d50&hm=8dd7131c0d82a11403fb7910f05b57f8183a66a55ab3c862f16cdd063fb6bb6e&">
+
+                    <h3>Product quality</h3>
+                    <p>Selecting the good raw material to be used for the good product.</p>
+                </li>
+
+                <li>
+                    <img
+                        src="https://cdn.discordapp.com/attachments/846028166912278548/1168111918326747266/p02.jpg?ex=655093ff&is=653e1eff&hm=92b1a459f3ab76f10ae7586839d8839ddaf29d80d457bc67ab097b829e6820a1&">
+
+                    <h3>Execelence Manufacturing</h3>
+                    <p>Managing the new innovation with the existing managing system by the professional team.</p>
+                </li>
+
+                <li>
+                    <img
+                        src="https://cdn.discordapp.com/attachments/846028166912278548/1168111918007988344/p03.jpg?ex=655093ff&is=653e1eff&hm=373a6b53499d88634b83352b290b96e5bbb4e31ed2e2faae0818080d9a3b26b5&">
+
+                    <h3>Custromer Satisfaction</h3>
+                    <p>Working hard in building trust to satisfy our customers.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="about">
+            <h3> About</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorem vitae facilis eaque iste
+                deleniti reprehenderit corporis! Inventore dolorem illo unde, repellendus, quam eaque tenetur debitis
+                animi, laborum iste rem.</P>
+
+            <img
+                src="https://cdn.discordapp.com/attachments/846028166912278548/1167722604774293544/2HrVwa-LogoMakr.png?ex=654f296c&is=653cb46c&hm=1199f5433e0ef1d1f304b2b75f61e45cba00677a3038744ef222b5c39e2ba20b&">
+        </div>
+
+        <div class="contact">
+            <h3> CONTACT INFO</h3>
+            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi aperiam ea numquam sint
+                officia vitae repellendus sapiente possimus voluptatem. Dolor consequatur cumque maiores dicta ratione,
+                quasi distinctio consectetur minima?</P>
+        </div>
+
+        <div class="break"></div>
+        <small>
+            Copyright © 2023 DICE. All Rights Reserved.
+        </small>
+    </footer>
+</body>
+
+</html>
