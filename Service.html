@@ -232,6 +232,79 @@
         flex: 50%;
         background-color: bisque;
     }
+
+    @media screen and (min-width: 576px) {
+        .hero-container {
+            align-items: center;
+            font-size: 20px;
+            max-width: 100vh;
+            min-width: 0vh;
+
+        }
+
+        .text-hero p {
+            max-width: 50vh;
+
+        }
+
+        .text-hero {
+
+            text-align: start;
+        }
+
+        .dice-img-set {
+            margin-left: 50px;
+            padding: auto;
+        }
+
+        .why-list p {
+            font-size: 13px;
+        }
+
+        @media screen and (min-width: 768px) {
+            body {
+                overflow-x: hidden;
+            }
+
+            .header a img {
+                width: 100%
+            }
+
+            .header {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .hero-container {
+                align-items: center;
+                font-size: 10px;
+                max-width: 100vh;
+                min-width: 0vh;
+
+            }
+
+            .text-hero p {
+                max-width: 50vh;
+
+            }
+
+            .text-hero {
+                align-self: flex-end;
+                text-align: start;
+            }
+
+        }
+
+        @media screen and (min-width: 992px) {
+            body {
+                margin: 0;
+            }
+
+            .hero-container {
+                min-width: 100%;
+            }
+        }
+    }
 </style>
 
 <body>
@@ -344,7 +417,7 @@
                 laborum qui fugit sit at nulla possimus a excepturi ipsam alias aliquam eveniet nobis tenetur placeat
                 doloribus!</p>
 
-            <ul class="Why-list">
+            <ul class="why-list">
                 <li>
                     <img
                         src="https://cdn.discordapp.com/attachments/846028166912278548/1169911889715793950/tubiao6.webp?ex=6557205a&is=6544ab5a&hm=c52ea7702178dc97a156539f1290cd75232565021b97c293e78cce179b238c7a&">
