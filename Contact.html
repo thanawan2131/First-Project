@@ -51,18 +51,18 @@
 
     .hero-container {
         display: flex;
-        background-image: url('https://cdn.discordapp.com/attachments/846028166912278548/1169516847545204776/Prime_Dice_DD_Android_Apps_on_Google_Play.jpg?ex=6555b071&is=65433b71&hm=c9ce36fb573d0dcf83bcbf4bc119a8b88bb330a623f72b1bdd913b0e58ac4217&');
+        background-image: url('https://cdn.discordapp.com/attachments/846028166912278548/1172029074567352350/360_F_302240356_qGADyljXwcPbioTAACmo1OdYY3vG6jBn.jpg?ex=655ed422&is=654c5f22&hm=e60d6b652f47e69a60a3850b00be60f3877b13570c26bc35e5b76ef8a71515ec&');
         background-repeat: no-repeat;
         background-size: cover;
         background-color: aqua;
-        background-position: center;
+        background-position: bottom;
         position: relative;
         min-width: 100vh;
         min-height: 50vh;
 
         flex-direction: column;
         justify-content: center;
-        align-items: end;
+        align-items: center;
     }
 
     .text-hero h1 {
@@ -110,6 +110,29 @@
         color: red;
 
     }
+
+    /*--------------------------------------------------------- FORM CSS ------------------------------------------------------------------------------------------------*/
+
+    .CT-form {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .content-box {
+        display: flex;
+
+    }
+
+    .content-L {
+        flex-basis: 60%;
+        padding: 40px 60px;
+    }
+
+    .content-R {
+        flex-basis: 40%;
+        padding: 40px;
+        background-color: beige;
+    }
 </style>
 
 <body>
@@ -131,10 +154,48 @@
         <div class="hero-container">
 
             <div class="text-hero">
-                <h1>Want your own dice?</h1>
-                <p>We can implement any of your designs & ideas, and custom dice set products. You can customize colors,
-                    patterns, logos,materials, etc. according to needs, and we can do it all.
+                <h1>Interested in our service? Have a question?</h1>
+                <p>Please send us your information and question in the form below we love to hear what you have in mind.
                 </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="CT-form">
+        <h1>Contact Us</h1>
+        <p>Please take a moment to get in touch, we will get back to you shortly.</p>
+
+        <div class="content-box">
+            <div class="content-L">
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label> Name </label>
+                            <input type="text" placeholder="Name">
+                        </div>
+
+                        <div class="input-group">
+                            <label> Phone </label>
+                            <input type="text" placeholder="+66 123 45 6678">
+                        </div>
+
+                        <div class="input-group">
+                            <label> Email </label>
+                            <input type="text" placeholder="123456@gmail.com">
+                        </div>
+
+                        <div class="input-group">
+                            <label> Subject </label>
+                            <input type="text" placeholder="Inquiry">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="content-R">
+                <h3> Reach us</h3>
             </div>
         </div>
     </section>
